@@ -10,15 +10,15 @@ Textastic templates are simple JSON files with the following format:
 
 ```json
 {
-	"uuid": "74C6D420-A016-4659-AF92-B5CCC1AE53BB",
-	"category": "HTML",
-	"templates": [
-		{
-			"name": "HTML5",
-			"fileExtension": "html",
-			"snippet": "<!DOCTYPE HTML>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<title>${1:untitled}<\/title>\n<\/head>\n\n<body>$0\n<\/body>\n<\/html>"
-		}
-	]
+    "uuid": "74C6D420-A016-4659-AF92-B5CCC1AE53BB",
+    "category": "HTML",
+    "templates": [
+        {
+            "name": "HTML5",
+            "fileExtension": "html",
+            "snippet": "<!DOCTYPE HTML>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<title>${1:untitled}<\/title>\n<\/head>\n\n<body>$0\n<\/body>\n<\/html>"
+        }
+    ]
 }
 ```
 
